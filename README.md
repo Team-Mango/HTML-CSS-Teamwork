@@ -45,6 +45,7 @@ Web design
     -	Use **HTML5 and CSS3**, not HTML 4.01 and CSS 2.1
     -	Ensure your site works correctly in the latest HTML5-compatible browsers: Chrome, Firefox, IE, Opera, Safari (latest versions, desktop and mobile versions)
     -	You do not need to support old browsers like IE9
+
 Forbidden Techniques and Tools
 ==============================
 *	Using HTML and CSS **site templates** from Internet is forbidden
