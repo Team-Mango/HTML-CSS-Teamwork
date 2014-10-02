@@ -12,12 +12,12 @@ Design and implement a **funny Web site about SoftUni using HTML, CSS and option
 Requirements:
 ============
 
-*	**Use HTML & CSS ** – the major part of your work should be HTML & CSS written by your team
+-	**Use HTML & CSS ** – the major part of your work should be HTML & CSS written by your team
     - You may optionally use **JavaScript** and **JS libraries** to simplify your work
     -	You may optionally use **PHP** or other server-side scripting but not as primary technology (e.g. you may use PHP for including HTML fragments to avoid repeating code)
     -	You may use **CSS preprocessors** like SASS and LESS
     -	You may use **CSS frameworks** like Bootstrap and Skeleton
-*	**Work in team** – all team members should contribute
+-	**Work in team** – all team members should contribute
     -   **Use GitHub** as project collaboration platform
     -   **Each team member should have commits in 5 different days**
 *	Create **original content** – your content should be written / created by your team, not copy-pasted
