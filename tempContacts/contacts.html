@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/contacts.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top container role="navigation">
+            <div>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-SU-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="./img/logo.png" title="Software University" alt="Software University" width="300px" height="100px"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-SU-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Начало</a></li>
+                        <li><a href="#">За Университета</a></li>
+                        <li><a href="#">Курсове</a></li>
+                        <li><a href="#">Екип</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <header>
+
+            </header>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <h3 class="col-md-11">Адрес:</h3></br>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <p class="col-md-9">Нашият офис и учебни плажове се намират на остров Мауи, втория по големина остров на Хаваите: 3850 Wailea Alanui Dr Kihei, HI 96753</p>
+        </div>
+        <div class="row">
+            <div id="map" class="container"></div>
+        </div>
+        <footer>
+            <nav class="navbar navbar-default navbar-fixed-bottom footer" role="navigation">
+                <div class="container">
+                    <p>Copyright &copy;2014 All rights reserved</p>
+                </div>
+            </nav>
+        </footer>
+    </div>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map');
+            var mapOptions = {
+                center: new google.maps.LatLng(20.6837333, -156.442585),
+                zoom: 18,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            map.set('styles', [
+                {
+                    "featureType": "water",
+                    "stylers": [
+                        { "hue": "#0008ff" },
+                        { "lightness": -15 },
+                        { "gamma": 0.34 },
+                        { "saturation": -19 },
+                        { "color": "#177cdb" }
+                    ]
+                }
+            ]);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addDomListener(window, "resize", function() {
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
+        })
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
