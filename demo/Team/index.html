@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".test").click(function(){
+                    $(".col-sm-12").hide('slow');
+                    $("#"+$(this).data("toggel")).show("slow");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="about container">
+            <img src="img/gangs.gif" class="about-img">
+            <h1>about us</h1>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec justo condimentum, semper sem nec, pellentesque sem. Proin iaculis sem in libero fermentum, in imperdiet ex interdum. Nunc at rhoncus erat, ac volutpat sapien. Nullam varius dictum elit a tincidunt. Nullam rutrum elementum quam. Duis dolor ante, aliquet nec ex non, dignissim lobortis lacus. Fusce tristique eros sit amet est suscipit, nec condimentum ante malesuada. Suspendisse convallis felis ac magna mollis porta. Etiam pharetra tempor justo vel tincidunt. Aenean eleifend, purus quis mollis elementum, purus lorem tristique lorem, vitae dapibus felis enim nec sem. Fusce faucibus scelerisque neque eget ultrices. Duis laoreet felis nunc, in sollicitudin augue maximus id. Donec mollis volutpat nisl, finibus porttitor nibh egestas sollicitudin. Donec et justo et risus scelerisque congue quis quis augue. Sed nibh dui, tristique ac turpis nec, ultricies auctor tellus. Sed sed felis euismod, gravida risus sed, tincidunt velit.
+        </div>
+         <div class="container">
+             <div class="row">
+                 <div class="test col-sm-4" data-toggel="p1">
+                    <a href="#">
+                        <img src="img/team.jpg" class="team">
+                    </a>
+                    <div class="person-data">
+                        Name: <strong>Peter Georgiev</strong>
+                        Age: <strong>32</strong>
+                    </div>
+                </div>
+                 <div class="test col-sm-4" data-toggel="p2">
+                    <a href="#">
+                        <img src="img/team.jpg" class="team">
+                    </a>
+                    <div class="person-data">
+                        Name: <strong>Peter Georgiev</strong>
+                        Age: <strong>32</strong>
+                    </div></div>
+                 <div class="test col-sm-4" data-toggel="p3">
+                    <a href="#">
+                        <img src="img/team.jpg" class="team">
+                    </a>
+                    <div class="person-data">
+                        Name: <strong>Peter Georgiev</strong>
+                        Age: <strong>32</strong>
+                    </div>
+                </div>
+             </div>
+             <div class="row">
+                <div id="p1" class="col-sm-12">Nunc eget commodo elit. Mauris at est condimentum odio consequat commodo eu a sapien. Aliquam erat volutpat. Quisque sollicitudin sollicitudin odio. Donec ligula massa, euismod nec bibendum sed, cursus et leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer finibus neque in tempor pellentesque. Maecenas vestibulum fermentum nisl sagittis venenatis. Curabitur maximus, massa ut luctus accumsan, dui nisl commodo justo, sed congue arcu ipsum vitae nibh. Donec et orci ut neque maximus viverra. Proin posuere elit molestie posuere gravida. Sed eget euismod purus, vel hendrerit lorem. Morbi malesuada rutrum sem id lacinia.
+                </div>
+                <div id="p2" class="col-sm-12">Nam sollicitudin porta ante sed fringilla. Maecenas rutrum nibh eu nulla fermentum, eu luctus nisi lobortis. Suspendisse ac risus at diam porttitor vehicula eget sit amet lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate mi non ornare cursus. Proin vitae metus tellus. Nulla ac tincidunt tortor. Sed ac efficitur tellus.
+                </div>
+                <div id="p3" class="col-sm-12">Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam pulvinar cursus sem, vitae ultricies nibh. Fusce volutpat elit ut odio vehicula, eget rutrum lorem commodo. Praesent vestibulum sit amet velit volutpat bibendum. Duis ac risus scelerisque lacus consectetur gravida volutpat nec leo. Pellentesque ultricies efficitur leo, lacinia vulputate quam aliquet non. Nunc mi nulla, condimentum sed ipsum vel, pulvinar congue libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas bibendum interdum rutrum.
+                </div>
+            </div>
+			
+        <div class="row">
+                 <div class="test col-sm-4" data-toggel="p4">
+                    <a href="#">
+                        <img src="img/team.jpg" class="team">
+                    </a>
+                    <div class="person-data">
+                        Name: <strong>Peter Georgiev</strong>
+                        Age: <strong>32</strong>
+                    </div>
+                </div>
+                 <div class="test col-sm-4" data-toggel="p5">
+                    <a href="#">
+                        <img src="img/team.jpg" class="team">
+                    </a>
+                    <div class="person-data">
+                        Name: <strong>Peter Georgiev</strong>
+                        Age: <strong>32</strong>
+                    </div></div>
+                 <div class="test col-sm-4" data-toggel="p6">
+                    <a href="#">
+                        <img src="img/team.jpg" class="team">
+                    </a>
+                    <div class="person-data">
+                        Name: <strong>Peter Georgiev</strong>
+                        Age: <strong>32</strong>
+                    </div>
+                </div>
+             </div>
+             <div class="row">
+                <div id="p4" class="col-sm-12">Nunc eget commodo elit. Mauris at est condimentum odio consequat commodo eu a sapien. Aliquam erat volutpat. Quisque sollicitudin sollicitudin odio. Donec ligula massa, euismod nec bibendum sed, cursus et leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer finibus neque in tempor pellentesque. Maecenas vestibulum fermentum nisl sagittis venenatis. Curabitur maximus, massa ut luctus accumsan, dui nisl commodo justo, sed congue arcu ipsum vitae nibh. Donec et orci ut neque maximus viverra. Proin posuere elit molestie posuere gravida. Sed eget euismod purus, vel hendrerit lorem. Morbi malesuada rutrum sem id lacinia.
+                </div>
+                <div id="p5" class="col-sm-12">Nam sollicitudin porta ante sed fringilla. Maecenas rutrum nibh eu nulla fermentum, eu luctus nisi lobortis. Suspendisse ac risus at diam porttitor vehicula eget sit amet lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate mi non ornare cursus. Proin vitae metus tellus. Nulla ac tincidunt tortor. Sed ac efficitur tellus.
+                </div>
+                <div id="p6" class="col-sm-12">Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam pulvinar cursus sem, vitae ultricies nibh. Fusce volutpat elit ut odio vehicula, eget rutrum lorem commodo. Praesent vestibulum sit amet velit volutpat bibendum. Duis ac risus scelerisque lacus consectetur gravida volutpat nec leo. Pellentesque ultricies efficitur leo, lacinia vulputate quam aliquet non. Nunc mi nulla, condimentum sed ipsum vel, pulvinar congue libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas bibendum interdum rutrum.
+                </div>
+            </div>
+         </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+.about-img {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+.col-sm-4 {
+    margin: 10 10 10 10;
+}
+.col-sm-12 {
+    display: none;
+}
+.team {
+	width: 80%;
+	height: 80%;
+}
