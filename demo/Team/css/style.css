@@ -1,13 +1,105 @@
+/* Header */
+
+.navbar {
+	margin:0 auto;
+}
+
+.container {
+	width:100%;
+    padding:0;
+}
+
+.navbar-nav{
+    margin:50px 0;
+}
+
+.navbar-header img{
+    margin:24px 0;
+}
+
+img.visible-xs {
+    margin:10px 0;
+}
+
+img.visible-sm{
+    margin:50px 0;
+}
+
+.navbar-header button{
+    margin:10px 0;
+}
+
+.nav li:hover {
+    border-bottom: 2px solid lightblue;
+}
+
+.nav li.active a{
+    border-bottom: 2px solid lightblue;
+}
+
+/* Footer */
+
+footer{
+    background-color: #2479b1;
+    color:white;
+    margin-top:60px;
+}
+
+footer p.hidden-xs{
+    text-align: center;
+    margin-top: 38px;
+}
+
+footer p.visible-xs{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#footer-img-1{
+    width:130px;
+    height:135px;
+    margin-top:-60px;
+}
+
+#footer-img-2{
+    width:100px;
+    height:75px;
+    margin-top:20px;
+}
+
+#footer-img-3{
+    width:231px;
+    height:72px;
+    margin-top:-25px;
+}
+/*Team page*/
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
 .about-img {
     float: left;
     width: 50%;
     height: 50%;
+	-webkit-transition-duration: 0.5s;
 }
-.col-sm-4 {
+
+.test img:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}
+.test .active{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}
+.col-md-3 {
     margin: 10 10 10 10;
 }
-.col-sm-12 {
+.col-md-9 {
     display: none;
+    text-align: justify;
 }
 .team {
 	width: 80%;
