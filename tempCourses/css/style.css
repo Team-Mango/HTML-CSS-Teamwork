@@ -1,3 +1,5 @@
+/* Header */
+
 .navbar {
 	margin:0 auto;
 }
@@ -30,6 +32,43 @@ img.visible-sm{
 .nav li:hover {
     border-bottom: 2px solid lightblue;
 }
+
 .nav li.active a{
     border-bottom: 2px solid lightblue;
+}
+
+/* Footer */
+
+footer{
+    background-color: #2479b1;
+    color:white;
+    margin-top:60px;
+}
+
+footer p.hidden-xs{
+    text-align: center;
+    margin-top: 38px;
+}
+
+footer p.visible-xs{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#footer-img-1{
+    width:130px;
+    height:135px;
+    margin-top:-60px;
+}
+
+#footer-img-2{
+    width:100px;
+    height:75px;
+    margin-top:20px;
+}
+
+#footer-img-3{
+    width:231px;
+    height:72px;
+    margin-top:-25px;
 }
