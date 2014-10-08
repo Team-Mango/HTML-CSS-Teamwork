@@ -1,3 +1,7 @@
+html{
+    font-size: 14px;
+}
+
 /* Header */
 
 .navbar {
@@ -18,15 +22,19 @@
 }
 
 img.visible-xs {
-    margin:10px 0;
+    margin:10px 20px;
+    width:125px;
+    height: 42px;
 }
 
 img.visible-sm{
     margin:50px 0;
+    width:125px;
+    height: 42px;
 }
 
 .navbar-header button{
-    margin:10px 0;
+    margin:10px 20px;
 }
 
 .nav li:hover {
@@ -35,6 +43,82 @@ img.visible-sm{
 
 .nav li.active a{
     border-bottom: 2px solid lightblue;
+}
+/* Content */
+section article.hidden-xs{
+    position:relative;
+}
+section article img.slider-background{
+    width: 100%;
+}
+section article img.slider-model{
+    position: absolute;
+    left:8%;
+    bottom:0;
+    height:90%;
+}
+section article .slider-main-button{
+    padding-top:0;
+    padding-left: 2%;
+    background: rgba(47, 105, 163, 0.8);
+    width:42%;
+    height: 23%;
+    position:absolute;
+    left:45%;
+    bottom:50%;
+}
+section article .slider-main-button h2{
+    margin:3% 0;
+    font-size: 2.5vw;
+}
+section article .slider-main-button p{
+    font-size: 1.5vw;
+}
+section article .slider-main-button a{
+    color: white;
+    text-decoration: none;
+}
+section article .slider-register{
+    padding-top:0;
+    padding-left: 2%;
+    background: rgb(47, 105, 163);
+    width:19%;
+    height: 13%;
+    position:absolute;
+    left:45%;
+    bottom:37%;
+}
+
+section article .slider-register a{
+    color: white;
+    text-decoration: none;
+}
+
+section article .slider-register h2{
+    margin:9% 7%;
+    font-size: 1.5vw;
+}
+
+section article.visible-xs>div {
+    width:100%;
+    background: rgba(47, 105, 163, 0.8);
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+section article.visible-xs div:last-child{
+    width:100%;
+    background: rgb(47, 105, 163);
+    text-align: center;
+    padding:1% 0;
+}
+section article.visible-xs div a{
+    color: white;
+    text-decoration: none;
+}
+section article.visible-xs div:last-child h2{
+    margin:4% 0;
 }
 
 /* Footer */
