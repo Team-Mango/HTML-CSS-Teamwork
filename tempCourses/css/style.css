@@ -2,30 +2,29 @@
 	margin:0 auto;
 }
 
-.navbar, .navbar-header {
-	height: 140px;
-}
-
 .container {
 	width:100%;
     padding:0;
-    min-width: 450px;
 }
 
 .navbar-nav{
-    margin-top:50px;
+    margin:50px 0;
 }
 
 .navbar-header img{
-    margin-top:24px;
+    margin:24px 0;
 }
 
-img.visible-sm {
-    margin-top:57px;
+img.visible-xs {
+    margin:10px 0;
+}
+
+img.visible-sm{
+    margin:50px 0;
 }
 
 .navbar-header button{
-    margin-top:53px;
+    margin:10px 0;
 }
 
 .nav li:hover {
