@@ -1,0 +1,36 @@
+.navbar {
+	margin:0 auto;
+}
+
+.navbar, .navbar-header {
+	height: 140px;
+}
+
+.container {
+	width:100%;
+    padding:0;
+    min-width: 450px;
+}
+
+.navbar-nav{
+    margin-top:50px;
+}
+
+.navbar-header img{
+    margin-top:24px;
+}
+
+img.visible-sm {
+    margin-top:57px;
+}
+
+.navbar-header button{
+    margin-top:53px;
+}
+
+.nav li:hover {
+    border-bottom: 2px solid lightblue;
+}
+.nav li.active a{
+    border-bottom: 2px solid lightblue;
+}
