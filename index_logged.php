@@ -1,8 +1,8 @@
 <?php
 include 'common.php';
 if($_SESSION['is_logged'] === true){
-    include 'header.php';
-    include 'footer.php';
+    header('Location: index.php');
+    $_SESSION['content_enable'] = true;
 }
 else{
     header('Location: RegisterAndLogin.php');

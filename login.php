@@ -18,5 +18,5 @@ if($_SESSION['is_logged'] !== true){
         }
     }
 }
-header('Location: blank.php');
+header('Location: index.php');
 exit;

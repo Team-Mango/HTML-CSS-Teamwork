@@ -5,7 +5,7 @@
 <nav>
     <ul>
         <li>
-            <a class="begin" href="blank.php">Начало</a>
+            <a class="begin" href="index.php">Начало</a>
         </li>
         <li>
             <a class="soft" href="softUni.php">Софт Уни</a>
