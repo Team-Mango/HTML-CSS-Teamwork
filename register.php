@@ -15,7 +15,7 @@ try{
 
         $sql=mysql_query("SELECT * FROM users WHERE login='$username'");
         if(mysql_num_rows($sql)>0){
-            $msg = "Name already exists";
+            $msg = "Username already exists";
             throw new Exception();
 
         }
@@ -29,11 +29,13 @@ try{
         $query = "INSERT INTO users (login, pass, email) VALUES ('$username', '$password', '$email')";
         $result = run_q($query);
         if($result){
-            echo('Invalid Username or Password! Please Try Again');
-            header( "refresh:2; url=RegisterAndLogin.php" );
+            echo('Congratulations! You can now log in!');
+            header('refresh:2; url=RegisterAndLogin.php');
         }
+
     }
 } catch (Exception $e){
     $_SESSION['msg'] = $msg;
-    header('Location: RegisterAndLogin.php');
+    echo $msg;
+    header('refresh:2; url=RegisterAndLogin.php');
 }
