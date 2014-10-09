@@ -1,6 +1,5 @@
 <?php
 include 'common.php';
-
 if($_SESSION['is_logged'] !== true){
     if($_POST['log_post'] == 1){
         $name = mysql_real_escape_string((addslashes(trim($_POST['login']))));
@@ -17,6 +16,8 @@ if($_SESSION['is_logged'] !== true){
             }
         }
     }
+} else {
+    echo('Invalid Username or Password! Please Try Again');
+    header( "refresh:2; url=RegisterAndLogin.php" );
 }
-header('Location: index.php');
 exit;
