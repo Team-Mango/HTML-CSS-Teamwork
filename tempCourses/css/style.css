@@ -1,7 +1,8 @@
-html{
-    font-size: 14px;
-}
 
+body{
+    font-size: 14px;
+    font-family: "Open Sans";
+}
 /* Header */
 
 .navbar {
@@ -11,12 +12,16 @@ html{
 .container {
 	width:100%;
     padding:0;
+    box-shadow: 0 5px 5px rgba(47, 105, 163, 0.8);
 }
 
 .navbar-nav{
     margin:50px 0;
 }
-
+ul.navbar-nav>li>a{
+    padding:10px 10px;
+    text-align: center;
+}
 .navbar-header img{
     margin:24px 0;
 }
@@ -45,6 +50,9 @@ img.visible-sm{
     border-bottom: 2px solid lightblue;
 }
 /* Content */
+section{
+    margin-top:2px;
+}
 section article.hidden-xs{
     position:relative;
 }
