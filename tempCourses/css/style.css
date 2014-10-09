@@ -136,6 +136,9 @@ footer{
     color:white;
     margin-top:60px;
 }
+footer div.row{
+    margin-right:0;
+}
 
 footer p.hidden-xs{
     text-align: center;
