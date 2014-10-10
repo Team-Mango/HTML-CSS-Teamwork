@@ -51,7 +51,13 @@ header .nav li.active a{
 }
 /* Content */
 
+/* Contacts */
 
+#contacts #map {
+    width: 85%;
+    height: 400px;
+    margin-bottom: 20px;
+}
 
 /* Footer */
 
