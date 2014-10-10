@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c88fc703-12b4-4f07-ad4b-9409ec65fe0e" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\Protokol Ot Razgoworite.docx" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\RegisterAndLogin.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\WebsiteUsabilityChecklist .pdf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\common.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\css\regAndLog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\images\footerImg1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\images\footerImg2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\images\footerImg3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\images\logo-small.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\img\gangs.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\img\team.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\demo\Team\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\footer.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\header.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\arrowLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\arrowRight.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\footerImg1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\footerImg2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\footerImg3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\model.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\sliderBg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\textIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\trainerImg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\img\trainerImg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\index_logged.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\login.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\register.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tasks.docx" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\contacts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\css\contacts.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\footerImg1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\footerImg2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\footerImg3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\logo-small.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\model.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\images\sliderBg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempContacts\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\TeamworkMango.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\Courses.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\footerImg1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\footerImg2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\footerImg3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\logo-small.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\model.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\images\sliderBg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Software_University\TeamWorks\Teamwork_HTML-CSS\tempCourses\js\bootstrap.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tempContacts/.idea/workspace.xml" afterPath="$PROJECT_DIR$/tempContacts/.idea/workspace.xml" />
+    </list>
+    <ignored path="Teamwork_HTML-CSS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Teamwork_HTML-CSS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="contacts.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tempContacts - Anatoli/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57829183" vertical-offset="1050" max-vertical-offset="2725">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tempContacts - Anatoli/css/contacts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3866" max-vertical-offset="4475">
+              <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tempContacts - Anatoli/css/contacts.css" />
+        <option value="$PROJECT_DIR$/tempContacts - Anatoli/contacts.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tempContacts - Anatoli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teamwork_HTML-CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tempContacts - Anatoli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c88fc703-12b4-4f07-ad4b-9409ec65fe0e" name="Default" comment="" />
+      <created>1412923123640</created>
+      <updated>1412923123640</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tempContacts - Anatoli/css/contacts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3866" max-vertical-offset="4475">
+          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tempContacts - Anatoli/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57829183" vertical-offset="1050" max-vertical-offset="2725">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
