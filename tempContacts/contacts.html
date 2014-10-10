@@ -2,36 +2,41 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/contacts.css">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default navbar-fixed-top container role="navigation">
-            <div>
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-SU-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
+        <div class="container">
+            <nav class="navbar navbar-default row navbar-static" role="navigation">
+                <div class="col-md-1 col-xs-2 col-sm-1"></div>
+                <div class="navbar-header col-md-3 col-lg-4 col-sm-2 ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#nav-header-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="./img/logo.png" title="Software University" alt="Software University" width="300px" height="100px"></a>
+                    <img src="images/logo.png" class="hidden-sm hidden-xs"/>
+                    <img src="images/logo.png" class="visible-sm"/>
+                    <img src="images/logo.png" class="visible-xs"/>
                 </div>
-                <div class="collapse navbar-collapse navbar-right" id="bs-SU-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Начало</a></li>
-                        <li><a href="#">За Университета</a></li>
-                        <li><a href="#">Курсове</a></li>
-                        <li><a href="#">Екип</a></li>
-                        <li><a href="#">Контакти</a></li>
+                <div class="collapse navbar-collapse " id="nav-header-collapse">
+                    <ul class="nav navbar-nav navbar-right col-lg-6 col-md-7 col-sm-9">
+                        <li><a href="#">НАЧАЛО</a></li>
+                        <li><a href="#">ЗА УНИТО</a></li>
+                        <li><a href="#">КУРСОВЕ</a></li>
+                        <li><a href="#">ЕКИП</a></li>
+                        <li><a href="#">РЕГИСТРАЦИЯ</a></li>
+                        <li class="active"><a href="#">КОНТАКТИ</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <div class="container">
         <div class="row">
@@ -50,12 +55,18 @@
         <div class="row">
             <div id="map" class="container"></div>
         </div>
-        <footer>
-            <nav class="navbar navbar-default navbar-fixed-bottom footer" role="navigation">
-                <div class="container">
-                    <p>Copyright &copy;2014 All rights reserved</p>
-                </div>
-            </nav>
+        <footer class="container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <img src="images/footerImg1.png" alt="" id="footer-img-1" class="col-sm-1 hidden-xs"/>
+                <img src="images/footerImg2.png" alt="" id="footer-img-2" class="col-sm-1 hidden-xs"/>
+                <div class="col-md-1"></div>
+                <p class="col-sm-4 hidden-xs">Copyright &copy;2014 all rights reserved</p>
+                <p class="col-xs-12 visible-xs">Copyright &copy;2014 all rights reserved</p>
+                <div class="col-md-1"></div>
+                <img src="images/footerImg3.png" alt="" id="footer-img-3" class="col-sm-4 hidden-xs"/>
+                <div class="col-sm-1"></div>
+            </div>
         </footer>
     </div>
     <script>
