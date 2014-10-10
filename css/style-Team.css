@@ -1,0 +1,44 @@
+@import url(style.css);
+
+/*Team page*/
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+.about-img {
+    float: left;
+    width: 50%;
+    height: 50%;
+	-webkit-transition-duration: 0.5s;
+}
+.person-data {
+    padding: 5px;
+}
+
+.row>.col-md-8 {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+}
+.test img:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}
+.test .active{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}
+.col-xs-4 {
+    margin: 10 10 10 10;
+}
+.col-xs-8 {
+    display: none;
+    text-align: justify;
+}
+.team {
+	width: 80%;
+	height: 80%;
+}
