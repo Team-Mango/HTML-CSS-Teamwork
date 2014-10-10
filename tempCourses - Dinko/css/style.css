@@ -5,68 +5,67 @@ body{
 }
 /* Header */
 
-.navbar {
+header .navbar {
 	margin:0 auto;
 }
 
-.container {
+header.container {
 	width:100%;
     padding:0;
-    box-shadow: 0 5px 5px rgba(47, 105, 163, 0.8);
 }
 
-.navbar-nav{
+header .navbar-nav{
     margin:50px 0;
 }
-ul.navbar-nav>li>a{
+header ul.navbar-nav>li>a{
     padding:10px 10px;
     text-align: center;
 }
-.navbar-header img{
+header .navbar-header img{
     margin:24px 0;
 }
 
-img.visible-xs {
+header img.visible-xs {
     margin:10px 20px;
     width:125px;
     height: 42px;
 }
 
-img.visible-sm{
+header img.visible-sm{
     margin:50px 0;
     width:125px;
     height: 42px;
 }
 
-.navbar-header button{
+header .navbar-header button{
     margin:10px 20px;
 }
 
-.nav li:hover {
+header .nav li:hover {
     border-bottom: 2px solid lightblue;
 	margin-bottom: -2px;
 }
 
-.nav li.active a{
+header .nav li.active a{
     border-bottom: 2px solid lightblue;
 }
 /* Content */
-section{
-    margin-top:2px;
+section#courses {
+
 }
-section article.hidden-xs{
+section#courses article.hidden-xs{
     position:relative;
 }
-section article img.slider-background{
+section#courses article img.slider-background{
     width: 100%;
 }
-section article img.slider-model{
+section#courses article img.slider-model{
     position: absolute;
     left:8%;
     bottom:0;
     height:90%;
 }
-section article .slider-main-button{
+section#courses article .slider-main-button{
     padding-top:0;
     padding-left: 2%;
     background: rgba(47, 105, 163, 0.8);
@@ -76,18 +75,18 @@ section article .slider-main-button{
     left:45%;
     bottom:50%;
 }
-section article .slider-main-button h2{
+section#courses article .slider-main-button h2{
     margin:3% 0;
     font-size: 2.5vw;
 }
-section article .slider-main-button p{
+section#courses article .slider-main-button p{
     font-size: 1.5vw;
 }
-section article .slider-main-button a{
+section#courses article .slider-main-button a{
     color: white;
     text-decoration: none;
 }
-section article .slider-register{
+section#courses article .slider-register{
     padding-top:0;
     padding-left: 2%;
     background: rgb(47, 105, 163);
@@ -98,17 +97,17 @@ section article .slider-register{
     bottom:37%;
 }
 
-section article .slider-register a{
+section#courses article .slider-register a{
     color: white;
     text-decoration: none;
 }
 
-section article .slider-register h2{
+section#courses article .slider-register h2{
     margin:9% 7%;
     font-size: 1.5vw;
 }
 
-section article.visible-xs>div {
+section#courses article.visible-xs>div {
     width:100%;
     background: rgba(47, 105, 163, 0.8);
     padding: 10px 20px;
@@ -116,26 +115,51 @@ section article.visible-xs>div {
     color: white;
 }
 
-section article.visible-xs div:last-child{
+section#courses article.visible-xs div:last-child{
     width:100%;
     background: rgb(47, 105, 163);
     text-align: center;
     padding:1% 0;
 }
-section article.visible-xs div a{
+section#courses article.visible-xs div a{
     color: white;
     text-decoration: none;
 }
-section article.visible-xs div:last-child h2{
+section#courses article.visible-xs div:last-child h2{
     margin:4% 0;
 }
 
+section#courses article#content {
+    width:95%;
+    margin:30px auto;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+}
+
+section#courses article#content h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin:20px 0;
+}
+
+section#courses article#content h2 img{
+    width:30px;
+    height:30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+section#courses article#content .indent {
+    text-indent: 50px;
+}
 /* Footer */
 
-footer{
+footer.container{
     background-color: #2479b1;
     color:white;
-    margin-top:60px;
+    margin-top:100px;
+    width:100%;
 }
 footer div.row{
     margin-right:0;
@@ -151,19 +175,19 @@ footer p.visible-xs{
     margin-top: 5px;
 }
 
-#footer-img-1{
+footer #footer-img-1{
     width:130px;
     height:135px;
     margin-top:-60px;
 }
 
-#footer-img-2{
+footer #footer-img-2{
     width:100px;
     height:75px;
     margin-top:20px;
 }
 
-#footer-img-3{
+footer #footer-img-3{
     width:231px;
     height:72px;
     margin-top:-25px;
