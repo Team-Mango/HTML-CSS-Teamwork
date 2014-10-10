@@ -44,6 +44,7 @@ img.visible-sm{
 
 .nav li:hover {
     border-bottom: 2px solid lightblue;
+	margin-bottom: -2px;
 }
 
 .nav li.active a{

@@ -12,7 +12,6 @@ body{
 .container {
 	width:100%;
     padding:0;
-    box-shadow: 0 5px 5px rgba(47, 105, 163, 0.8);
 }
 
 .navbar-nav{
@@ -44,6 +43,7 @@ img.visible-sm{
 
 .nav li:hover {
     border-bottom: 2px solid lightblue;
+    margin-bottom: -2px;
 }
 
 .nav li.active a{
@@ -166,4 +166,12 @@ footer p.visible-xs{
     width:231px;
     height:72px;
     margin-top:-25px;
+}
+
+/* Contacts */
+
+#contacts #map {
+    width: 85%;
+    height: 400px;
+    margin-bottom: 20px;
 }
