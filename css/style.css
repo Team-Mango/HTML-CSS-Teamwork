@@ -171,7 +171,14 @@ footer p.visible-xs{
 /* Contacts */
 
 #contacts #map {
-    width: 85%;
+    width: 90%;
     height: 400px;
+}
+
+#contacts .container {
     margin-bottom: 20px;
+}
+
+#contacts textarea {
+    margin-bottom: 50px;
 }
