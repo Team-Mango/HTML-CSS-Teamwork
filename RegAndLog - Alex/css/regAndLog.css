@@ -1,0 +1,100 @@
+h3 {
+    color: darkblue;
+    text-align: center;
+}
+.reg {
+    border-bottom-color: #63ACD9;
+    border-bottom-style: inset;
+    color: #000000;
+}
+.authentication {
+	width: 80%;
+    margin: 0 auto;
+}
+.authentication .form {
+	padding: 3%;
+	border-radius: 5px;
+	background: rgba(47, 89, 123, 0.6);
+	margin-bottom: 3%;
+	text-align: center;
+}
+.authentication .form > div {
+	margin-bottom: 2%; 
+}
+.authentication .form label {
+	font-size: 130%;
+	color: #c8c8c8;
+	margin-right: 2%; 
+}
+.authentication .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+	width: 35%;
+	height: 35px;
+	border-radius: 5px;
+	padding: 1%;
+	border: 1px solid #d2d2d2;
+	outline: none;
+	margin-right: 2%; 
+}
+.authentication .form input[type="email"] {
+	width: 70%; 
+}
+.authentication .form input[type="submit"] {
+	display: block;
+	width: 25%;
+	height: 35px;
+	margin: 3% auto;
+	background: #e2e2e2;
+	box-shadow: 2px 2px 1px 0 #d2d2d2;
+	border-radius: 5px;
+	color: #353535;
+	font-size: 120%;
+	transition: ease 0.5s all;
+}
+.authentication .form input[type="submit"]:active {
+	box-shadow: none;
+	position: relative;
+	top: 3px;
+	outline: none;
+	background: #f8390f;
+	border: none; 
+  }
+.authentication .form input[type="submit"]:focus {
+	outline: none;
+	border: none; 
+}
+@media screen and (max-width: 795px) {
+    .authentication {
+
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .authentication {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .login, .pass {
+        display: inline-block;
+    }
+    .authentication .form label {
+        float: left;
+        padding-bottom: 5px;
+    }
+    .authentication .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+        width: 80%;
+        float: right;
+    }
+}
+@media screen and (max-width: 502px) {
+    .authentication .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+        height: 25px;
+        width: 66%;
+    }
+    .authentication .form label {
+
+    }
+    .authentication .form input[type="submit"] {
+        margin: 0;
+    }
+}
