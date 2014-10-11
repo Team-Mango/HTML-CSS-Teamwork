@@ -54,50 +54,12 @@ header .nav li.active a{
 /* Contacts */
 
 #contacts #map {
-    width: 99%;
+    width: 90%;
     height: 400px;
 }
 
-#contacts .panel {
-    margin-top: 10px;
-}
-
-#contacts .panel-heading {
-    text-align: center;
-    font-size: 1.5em;
-}
-
-#contacts .input-group-addon {
-    min-width: 100px;
-}
-
-#contacts .input-group-addon, .btn, .form-control  {
-    border-radius: 0px;
-}
-
-#contacts .btn {
-    width: 100%;
-    font-size: 1.5em;
-}
-
-#contacts .btn:hover {
-    background-color: #EC971F;
-    border-color: #EC971F;
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    -ms-transition: background-color 0.3s;
-    -o-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-}
-
-#contacts textarea {
-    min-height: 100px;
-    max-height: 200px;
-    resize: vertical;
-}
-
-#contacts #pigeon {
-    margin: 45px 0 0 70px;
+#contacts .container {
+    margin-bottom: 20px;
 }
 
 /* Courses */
