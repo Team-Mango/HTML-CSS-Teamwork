@@ -6,11 +6,11 @@ body{
 /* Header */
 
 header .navbar {
-	margin:0 auto;
+    margin:0 auto;
 }
 
 header.container {
-	width:100%;
+    width:100%;
     padding:0;
 }
 
@@ -43,7 +43,7 @@ header .navbar-header button{
 
 header .nav li:hover {
     border-bottom: 2px solid lightblue;
-	margin-bottom: -2px;
+    margin-bottom: -2px;
 }
 
 header .nav li.active a{
@@ -54,12 +54,50 @@ header .nav li.active a{
 /* Contacts */
 
 #contacts #map {
-    width: 90%;
+    width: 99%;
     height: 400px;
 }
 
-#contacts .container {
-    margin-bottom: 20px;
+#contacts .panel {
+    margin-top: 10px;
+}
+
+#contacts .panel-heading {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#contacts .input-group-addon {
+    min-width: 100px;
+}
+
+#contacts .input-group-addon, .btn, .form-control  {
+    border-radius: 0px;
+}
+
+#contacts .btn {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#contacts .btn:hover {
+    background-color: #EC971F;
+    border-color: #EC971F;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+#contacts textarea {
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+#contacts #pigeon {
+    margin: 45px 0 0 70px;
 }
 
 /* Courses */
