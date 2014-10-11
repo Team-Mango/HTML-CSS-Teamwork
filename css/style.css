@@ -6,11 +6,11 @@ body{
 /* Header */
 
 header .navbar {
-    margin:0 auto;
+	margin:0 auto;
 }
 
 header.container {
-    width:100%;
+	width:100%;
     padding:0;
 }
 
@@ -43,7 +43,7 @@ header .navbar-header button{
 
 header .nav li:hover {
     border-bottom: 2px solid lightblue;
-    margin-bottom: -2px;
+	margin-bottom: -2px;
 }
 
 header .nav li.active a{
