@@ -17,6 +17,9 @@ header.container {
 header .navbar-nav{
     margin:50px 0;
 }
+header .navbar-nav li {
+    margin-left:-2px;
+}
 header ul.navbar-nav>li>a{
     padding:10px 10px;
     text-align: center;
@@ -50,9 +53,8 @@ header .nav li.active a{
     border-bottom: 2px solid lightblue;
 }
 /* Content */
-section#courses {
 
-}
+/* Courses */
 section#courses article.hidden-xs{
     position:relative;
 }
@@ -61,7 +63,7 @@ section#courses article img.slider-background{
 }
 section#courses article img.slider-model{
     position: absolute;
-    left:8%;
+    left:0;
     bottom:0;
     height:90%;
 }
@@ -191,4 +193,5 @@ footer #footer-img-3{
     width:231px;
     height:72px;
     margin-top:-25px;
+    margin-left:-95px;
 }
