@@ -17,6 +17,9 @@ header.container {
 header .navbar-nav{
     margin:50px 0;
 }
+header .navbar-nav li {
+    margin-left:-2px;
+}
 header ul.navbar-nav>li>a{
     padding:10px 10px;
     text-align: center;
@@ -241,4 +244,5 @@ footer #footer-img-3{
     width:231px;
     height:72px;
     margin-top:-25px;
+    margin-left:-95px;
 }
