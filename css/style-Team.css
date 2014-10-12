@@ -9,38 +9,72 @@ section.team {
     text-align: justify;
 }
 
-.team.about-img {
-     float: left;
-     width: 50%;
- }
-
-img.team.person{
-    width: 100%;
+.about-us.container {
+    padding-bottom: 12px;
+    text-align: center;
 }
-.team.person-data {
+.about-us.container p{
+    padding: 6px 6px 6px 6px;
     text-align: justify;
 }
+.about-us img {
+    width: 80%;
+ }
 
-img.team.person:hover{
-	-webkit-transform:scale(0.8);
-	-webkit-box-shadow:0px 0px 30px #ccc;
-}
-img.team.active{
-	-webkit-transform:scale(0.8);
-	-webkit-box-shadow:0px 0px 30px #ccc;
-}
 
 .team.col-xs-4 {
     margin: 10 10 10 10;
 }
+
+.team.col-xs-4 img{
+    width: 100%;
+}
+
+.team.col-xs-4.team:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}
+.team.col-xs-4.active{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}
+
+.team.person-data {
+    padding-left: 10%;
+    padding-top: 12px;
+    text-align: justify;
+}
+
+
 .team.col-xs-8 {
     display: none;
     border: 2px solid #000000;
     border-radius: 5px;
     padding: 12px;
 }
-.team.about-img {
-     float: left;
-     width: 100%;
- }
+
+.team.person-1 {
+    content:url("../images/cartoon-character-portrait-chris-e.jpg");
+}
+.team.person-2 {
+    content:url("../images/funny-animals-images-cartoon-1.jpeg");
+}
+.team.person-3 {
+    content:url("../images/funny-animals-images-cartoon-3-600x450.jpg");
+}
+.team.person-4 {
+    content:url("../images/funny-animals-images-cartoon-6-600x457.jpg");
+}
+.team.person-5 {
+    content:url("../images/funny-animals-images-cartoon-8-600x480.jpg");
+}
+.team.person-6 {
+    content:url("../images/gangs.gif");
+}
+@media only screen and (max-width: 241px)
+{
+    .team.about-img {
+        float: left;
+        width: 100%;
+    }
 }

@@ -8,6 +8,6 @@ $(document).ready(function(){
         $("#"+$(this).data("toggel")).show("slow");
 
         $(".active").removeClass('active');
-        $(this).find('img').addClass('active');
+        $(this).addClass('active');
     });
 });
