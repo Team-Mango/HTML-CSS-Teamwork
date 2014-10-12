@@ -235,7 +235,7 @@ h3 {
 	color: #c8c8c8;
 	margin-right: 2%; 
 }
-.authenticationA .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+.authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
 	width: 35%;
 	height: 35px;
 	border-radius: 5px;
@@ -273,7 +273,6 @@ h3 {
 }
 @media screen and (max-width: 795px) {
     .authenticationA {
-
         width: 100%;
     }
 }
@@ -290,13 +289,13 @@ h3 {
         float: left;
         padding-bottom: 5px;
     }
-    .authenticationA .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+    .authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
         width: 80%;
         float: right;
     }
 }
 @media screen and (max-width: 502px) {
-    .authenticationA .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+    .authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
         height: 25px;
         width: 66%;
     }
