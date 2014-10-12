@@ -205,6 +205,108 @@ section#courses article#content h2 img{
 section#courses article#content .indent {
     text-indent: 50px;
 }
+/* Register and Login */
+
+h3 {
+    color: darkblue;
+    text-align: center;
+}
+.reg {
+    border-bottom-color: #63ACD9;
+    border-bottom-style: inset;
+    color: #000000;
+}
+.authenticationA {
+	width: 80%;
+    margin: 0 auto;
+}
+.authenticationA .form {
+	padding: 3%;
+	border-radius: 5px;
+	background: rgba(47, 89, 123, 0.6);
+	margin-bottom: 3%;
+	text-align: center;
+}
+.authenticationA .form > div {
+	margin-bottom: 2%; 
+}
+.authenticationA .form label {
+	font-size: 130%;
+	color: #c8c8c8;
+	margin-right: 2%; 
+}
+.authenticationA .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+	width: 35%;
+	height: 35px;
+	border-radius: 5px;
+	padding: 1%;
+	border: 1px solid #d2d2d2;
+	outline: none;
+	margin-right: 2%; 
+}
+.authenticationA .form input[type="email"] {
+	width: 70%; 
+}
+.authenticationA .form input[type="submit"] {
+	display: block;
+	width: 25%;
+	height: 35px;
+	margin: 3% auto;
+	background: #e2e2e2;
+	box-shadow: 2px 2px 1px 0 #d2d2d2;
+	border-radius: 5px;
+	color: #353535;
+	font-size: 120%;
+	transition: ease 0.5s all;
+}
+.authenticationA .form input[type="submit"]:active {
+	box-shadow: none;
+	position: relative;
+	top: 3px;
+	outline: none;
+	background: #f8390f;
+	border: none; 
+  }
+.authenticationA .form input[type="submit"]:focus {
+	outline: none;
+	border: none; 
+}
+@media screen and (max-width: 795px) {
+    .authenticationA {
+
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .authenticationA {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .login, .pass {
+        display: inline-block;
+    }
+    .authenticationA .form label {
+        float: left;
+        padding-bottom: 5px;
+    }
+    .authenticationA .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+        width: 80%;
+        float: right;
+    }
+}
+@media screen and (max-width: 502px) {
+    .authenticationA .form input[type="password"], .authentication .form input[type="text"], .authentication .form input[type="email"] {
+        height: 25px;
+        width: 66%;
+    }
+    .authenticationA .form label {
+
+    }
+    .authenticationA .form input[type="submit"] {
+        margin: 0;
+    }
+}
 
 /* Footer */
 

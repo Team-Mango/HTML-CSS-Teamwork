@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/headerAndFooter.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default row navbar-static" role="navigation">
+                <div class="col-md-1 col-xs-2 col-sm-1"></div>
+                <div class="navbar-header col-md-3 col-lg-4 col-sm-2 ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#nav-header-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="images/logo.png" class="hidden-sm hidden-xs"/>
+                    <img src="images/logo.png" class="visible-sm"/>
+                    <img src="images/logo.png" class="visible-xs"/>
+                </div>
+                <div class="collapse navbar-collapse " id="nav-header-collapse">
+                    <ul class="nav navbar-nav navbar-right col-lg-6 col-md-7 col-sm-9">
+                        <li><a href="index.html">НАЧАЛО</a></li>
+                        <li><a href="#">ЗА УНИТО</a></li>
+                        <li class="active"><a href="Courses.html">КУРСОВЕ</a></li>
+                        <li><a href="#">ЕКИП</a></li>
+                        <li><a href="RegisterAndLogin.html">РЕГИСТРАЦИЯ</a></li>
+                        <li><a href="contacts.html">КОНТАКТИ</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section class="authenticationA">
+            <h3>Нямате акаунт? РЕГИСТРИРАЙТЕ СЕ!</h3>
+            <form method="post" class="form">
+                <div>
+                    <label for="username">Име: </label><input type="text" id="username" name="username" placeholder="Username"/>
+                    <label for="passReg">Парола: </label><input type="password" id="passReg" name="pass" placeholder="Password"/>
+                </div>
+                <div>
+                    <label for="user-mail">E-Mail: </label><input type="email" id="user-mail" name="user-mail" placeholder="E-mail"/>
+                </div>
+                <?php if(isset($_SESSION['msg'])): ?>
+                    <div><p><?php echo $_SESSION['msg']; session_destroy(); ?></p></div>
+                <?php endif; ?>
+                <input type="submit" value="Register"/>
+            </form>
+            <h3>Вече си направихте акаунт? ВЛЕЗТЕ!</h3>
+            <form method="post" class="form">
+                <label for="login">Име: </label> <input type="text" class="login" id="login" name="login" placeholder="Username"/>
+                <label for="pass">Парола: </label> <input type="password" class="pass" id="pass" name="pass" placeholder="Password"/>
+                <input type="submit" value="Login"/>
+                <input type="hidden" name="log_post" value="1"/>
+            </form>
+        </section>
+        <footer class="container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <img src="images/footerImg1.png" alt="" id="footer-img-1" class="col-sm-1 hidden-xs"/>
+                <img src="images/footerImg2.png" alt="" id="footer-img-2" class="col-sm-1 hidden-xs"/>
+                <div class="col-md-1"></div>
+                <p class="col-sm-4 hidden-xs">Copyright &copy;2014 all rights reserved</p>
+                <p class="col-xs-12 visible-xs">Copyright &copy;2014 all rights reserved</p>
+                <div class="col-md-1"></div>
+                <img src="images/footerImg3.png" alt="" id="footer-img-3" class="col-sm-4 hidden-xs"/>
+                <div class="col-sm-1"></div>
+            </div>
+        </footer>
+    </body>
+</html>
