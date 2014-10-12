@@ -12,13 +12,10 @@ section.team {
 .team.about-img {
      float: left;
      width: 50%;
-     height: 50%;
-     -webkit-transition-duration: 0.5s;
  }
 
 img.team.person{
-    width: 80%;
-    height: 80%;
+    width: 100%;
 }
 .team.person-data {
     text-align: justify;
@@ -41,4 +38,9 @@ img.team.active{
     border: 2px solid #000000;
     border-radius: 5px;
     padding: 12px;
+}
+.team.about-img {
+     float: left;
+     width: 100%;
+ }
 }
