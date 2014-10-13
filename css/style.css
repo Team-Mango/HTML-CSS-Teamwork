@@ -212,7 +212,7 @@ section#courses article#content .indent {
 }
 /* Register and Login */
 
-h3 {
+.authenticationA h3 {
     color: darkblue;
     text-align: center;
 }
