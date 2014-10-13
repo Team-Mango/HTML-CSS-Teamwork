@@ -1,354 +1,215 @@
-body{
-    font-size: 14px;
-    font-family: "Open Sans";
+body {
+    font-size:14px;
+    font-family:"Open Sans"
 }
-/* Header */
 
+/* Header */
 header .navbar {
-	margin:0 auto;
+    margin:0 auto
 }
 
 header.container {
-	width:100%;
-    padding:0;
+    width:100%;
+    padding:0
 }
 
-header .navbar-nav{
-    margin:50px 0;
+header .navbar-nav {
+    margin:50px 0
 }
+
 header .navbar-nav li {
-    margin-left:-2px;
+    margin-left:-2px
 }
-header ul.navbar-nav>li>a{
-    padding:10px 10px;
-    text-align: center;
+
+header ul.navbar-nav>li>a {
+    padding:10px;
+    text-align:center;
+    font-size: 18px;
 }
-header .navbar-header img{
-    margin:24px 0;
+
+header .navbar-header img {
+    margin:24px 0
 }
 
 header img.visible-xs {
     margin:10px 20px;
     width:125px;
-    height: 42px;
+    height:42px
 }
 
-header img.visible-sm{
+header img.visible-sm {
     margin:50px 0;
     width:125px;
-    height: 42px;
+    height:42px
 }
 
-header .navbar-header button{
-    margin:10px 20px;
+header .navbar-header button {
+    margin:10px 20px
 }
 
 header .nav li:hover {
-    border-bottom: 2px solid lightblue;
-	margin-bottom: -2px;
+    border-bottom:2px solid #add8e6;
+    margin-bottom:-2px
 }
 
-header .nav li.active a{
-    border-bottom: 2px solid lightblue;
+header .nav li.active a {
+    border-bottom:2px solid #add8e6
 }
+
 /* Content */
-
-/* Contacts */
-
-#contacts #map {
-    width: 97%;
-    height: 400px;
-}
-
-#contacts .panel {
-    margin-top: 10px;
-}
-
-#contacts .panel-heading {
-    text-align: center;
-    font-size: 1.5em;
-    line-height: 1em;
-}
-
-#contacts .panel-heading span {
-    font-size: 0.6em;
-    padding-top: 5px;
-}
-
-#contacts .input-group-addon {
-    min-width: 100px;
-}
-
-#contacts .input-group-addon, .btn, .form-control  {
-    border-radius: 0px;
-}
-
-#contacts .btn {
-    width: 100%;
-    font-size: 1.5em;
-}
-
-#contacts .btn:hover {
-    background-color: #EC971F;
-    border-color: #EC971F;
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    -ms-transition: background-color 0.3s;
-    -o-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-}
-
-#contacts textarea {
-    min-height: 100px;
-    max-height: 200px;
-    resize: vertical;
-}
-
-#contacts #pigeon {
-    margin: 45px 0 0 70px;
-}
-
 /* Courses */
+section#courses article.hidden-xs {
+    position:relative
+}
 
-section#courses article.hidden-xs{
-    position:relative;
+section#courses article img.slider-background {
+    width:100%
 }
-section#courses article img.slider-background{
-    width: 100%;
-}
-section#courses article img.slider-model{
-    position: absolute;
+
+section#courses article img.slider-model {
+    position:absolute;
     left:0;
     bottom:0;
-    height:90%;
+    height:90%
 }
-section#courses article .slider-main-button{
+
+section#courses article .slider-main-button {
     padding-top:0;
-    padding-left: 2%;
-    background: rgba(47, 105, 163, 0.8);
+    padding-left:2%;
+    background:rgba(47,105,163,0.8);
     width:42%;
-    height: 23%;
+    height:23%;
     position:absolute;
     left:45%;
-    bottom:50%;
+    bottom:50%
 }
-section#courses article .slider-main-button h2{
+
+section#courses article .slider-main-button h2 {
     margin:3% 0;
-    font-size: 2.5vw;
+    font-size:2.5vw
 }
-section#courses article .slider-main-button p{
-    font-size: 1.5vw;
+
+section#courses article .slider-main-button p {
+    font-size:1.5vw
 }
-section#courses article .slider-main-button a{
-    color: white;
-    text-decoration: none;
+
+section#courses article .slider-main-button a {
+    color:#fff;
+    text-decoration:none
 }
-section#courses article .slider-register{
+
+section#courses article .slider-register {
     padding-top:0;
-    padding-left: 2%;
-    background: rgb(47, 105, 163);
+    padding-left:2%;
+    background:#2f69a3;
     width:19%;
-    height: 13%;
+    height:13%;
     position:absolute;
     left:45%;
-    bottom:37%;
+    bottom:37%
 }
 
-section#courses article .slider-register a{
-    color: white;
-    text-decoration: none;
+section#courses article .slider-register a {
+    color:#fff;
+    text-decoration:none
 }
 
-section#courses article .slider-register h2{
+section#courses article .slider-register h2 {
     margin:9% 7%;
-    font-size: 1.5vw;
+    font-size:1.5vw
 }
 
 section#courses article.visible-xs>div {
     width:100%;
-    background: rgba(47, 105, 163, 0.8);
-    padding: 10px 20px;
-    text-align: center;
-    color: white;
+    background:rgba(47,105,163,0.8);
+    padding:10px 20px;
+    text-align:center;
+    color:#fff
 }
 
-section#courses article.visible-xs div:last-child{
+section#courses article.visible-xs div:last-child {
     width:100%;
-    background: rgb(47, 105, 163);
-    text-align: center;
-    padding:1% 0;
+    background:#2f69a3;
+    text-align:center;
+    padding:1% 0
 }
-section#courses article.visible-xs div a{
-    color: white;
-    text-decoration: none;
+
+section#courses article.visible-xs div a {
+    color:#fff;
+    text-decoration:none
 }
-section#courses article.visible-xs div:last-child h2{
-    margin:4% 0;
+
+section#courses article.visible-xs div:last-child h2 {
+    margin:4% 0
 }
 
 section#courses article#content {
     width:95%;
     margin:30px auto;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 18px;
+    text-align:justify;
+    text-justify:inter-word;
+    font-size:18px
 }
 
-section#courses article#content h2{
-    font-size: 35px;
-    font-weight: bold;
-    margin:20px 0;
+section#courses article#content h2 {
+    font-size:35px;
+    font-weight:700;
+    margin:20px 0
 }
 
-section#courses article#content h2 img{
+section#courses article#content h2 img {
     width:30px;
     height:30px;
-    margin-bottom: 10px;
-    margin-right: 5px;
+    margin-bottom:10px;
+    margin-right:5px
 }
 
 section#courses article#content .indent {
-    text-indent: 50px;
-}
-/* Register and Login */
-
-.authenticationA h3 {
-    color: darkblue;
-    text-align: center;
-}
-.reg {
-    border-bottom-color: #63ACD9;
-    border-bottom-style: inset;
-    color: #000000;
-}
-.authenticationA {
-	width: 80%;
-    margin: 0 auto;
-}
-.authenticationA .form {
-	padding: 3%;
-	border-radius: 5px;
-	background: rgba(47, 89, 123, 0.6);
-	margin-bottom: 3%;
-	text-align: center;
-}
-.authenticationA .form > div {
-	margin-bottom: 2%; 
-}
-.authenticationA .form label {
-	font-size: 130%;
-	color: #c8c8c8;
-	margin-right: 2%; 
-}
-.authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
-	width: 35%;
-	height: 35px;
-	border-radius: 5px;
-	padding: 1%;
-	border: 1px solid #d2d2d2;
-	outline: none;
-	margin-right: 2%; 
-}
-.authenticationA .form input[type="email"] {
-	width: 70%; 
-}
-.authenticationA .form input[type="submit"] {
-	display: block;
-	width: 25%;
-	height: 35px;
-	margin: 3% auto;
-	background: #e2e2e2;
-	box-shadow: 2px 2px 1px 0 #d2d2d2;
-	border-radius: 5px;
-	color: #353535;
-	font-size: 120%;
-	transition: ease 0.5s all;
-}
-.authenticationA .form input[type="submit"]:active {
-	box-shadow: none;
-	position: relative;
-	top: 3px;
-	outline: none;
-	background: #f8390f;
-	border: none; 
-  }
-.authenticationA .form input[type="submit"]:focus {
-	outline: none;
-	border: none; 
-}
-@media screen and (max-width: 795px) {
-    .authenticationA {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 768px) {
-    .authenticationA {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 640px) {
-    .login, .pass {
-        display: inline-block;
-    }
-    .authenticationA .form label {
-        float: left;
-        padding-bottom: 5px;
-    }
-    .authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
-        width: 80%;
-        float: right;
-    }
-}
-@media screen and (max-width: 502px) {
-    .authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
-        height: 25px;
-        width: 66%;
-    }
-    .authenticationA .form label {
-
-    }
-    .authenticationA .form input[type="submit"] {
-        margin: 0;
-    }
+    text-indent:50px
 }
 
 /* Footer */
-
-footer.container{
-    background-color: #2479b1;
-    color:white;
+footer.container {
+    background-color:#2479b1;
+    color:#fff;
     margin-top:100px;
-    width:100%;
-}
-footer div.row{
-    margin-right:0;
+    width:100%
 }
 
-footer p.hidden-xs{
-    text-align: center;
-    margin-top: 38px;
+footer div.row {
+    margin-right:0
 }
 
-footer p.visible-xs{
-    text-align: center;
-    margin-top: 5px;
+footer p.hidden-xs {
+    text-align:center;
+    margin-top:38px
 }
 
-footer #footer-img-1{
+footer p.visible-xs {
+    text-align:center;
+    margin-top:5px
+}
+
+footer #footer-img-1 {
     width:130px;
     height:135px;
-    margin-top:-60px;
+    margin-top:-60px
 }
 
-footer #footer-img-2{
+footer #footer-img-2 {
     width:100px;
     height:75px;
-    margin-top:20px;
+    margin-top:20px
 }
 
-footer #footer-img-3{
+footer #footer-img-3 {
     width:231px;
     height:72px;
     margin-top:-25px;
-    margin-left:-95px;
+    margin-left:-95px
+}
+
+.box {
+    padding: 20px;
+    background: #f4f8fb;
 }
