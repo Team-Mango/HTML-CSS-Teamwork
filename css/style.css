@@ -213,3 +213,30 @@ footer #footer-img-3 {
     padding: 20px;
     background: #f4f8fb;
 }
+
+.subtitle {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.icon {
+    position: relative;
+    top: -4px;
+    margin-right: 10px;
+}
+
+.hr {
+    color: #2f69a3;
+    background-color: #64abda;
+    height: 2px;
+}
+
+.trainerImg {
+    width: 100%;
+}
