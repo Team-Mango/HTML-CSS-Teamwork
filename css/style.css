@@ -4,59 +4,128 @@ body {
 }
 
 /* Header */
+
 header .navbar {
-    margin:0 auto
+	margin:0 auto;
 }
 
 header.container {
-    width:100%;
-    padding:0
+	width:100%;
+    padding:0;
 }
 
-header .navbar-nav {
-    margin:50px 0
+header .navbar-nav{
+    margin:50px 0;
 }
-
 header .navbar-nav li {
-    margin-left:-2px
+    margin-left:-2px;
 }
-
-header ul.navbar-nav>li>a {
-    padding:10px;
-    text-align:center;
-    font-size: 18px;
+header ul.navbar-nav>li>a{
+    padding:10px 10px;
+    text-align: center;
 }
-
-header .navbar-header img {
-    margin:24px 0
+header .navbar-header img{
+    margin:24px 0;
 }
 
 header img.visible-xs {
     margin:10px 20px;
     width:125px;
-    height:42px
+    height: 42px;
 }
 
-header img.visible-sm {
+header img.visible-sm{
     margin:50px 0;
     width:125px;
-    height:42px
+    height: 42px;
 }
 
-header .navbar-header button {
-    margin:10px 20px
+header .navbar-header button{
+    margin:10px 20px;
 }
 
 header .nav li:hover {
-    border-bottom:2px solid #add8e6;
-    margin-bottom:-2px
+    border-bottom: 2px solid lightblue;
+	margin-bottom: -2px;
 }
 
-header .nav li.active a {
-    border-bottom:2px solid #add8e6
+header .nav li.active a{
+    border-bottom: 2px solid lightblue;
 }
 
 /* Content */
+
+/* Contacts */
+
+#contacts #map {
+    width: 97%;
+    height: 400px;
+}
+
+#contacts .panel {
+    margin-top: 10px;
+}
+
+#contacts .panel-heading {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#contacts .panel-heading span {
+    font-size: 0.6em;
+    padding-top: 5px;
+}
+
+#contacts .input-group-addon {
+    min-width: 100px;
+}
+
+#contacts .input-group-addon, .btn, .form-control  {
+    border-radius: 0px;
+}
+
+#contacts .btn {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#contacts .btn:hover {
+    background-color: #EC971F;
+    border-color: #EC971F;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+#contacts textarea {
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+#contacts #pigeon {
+    margin: 45px 0 0 70px;
+}
+
+#contacts .address {
+    font-size: 1.3em;
+}
+
+#contacts .transport p {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contacts .transport button {
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
 /* Courses */
 section#courses article.hidden-xs {
     position:relative
