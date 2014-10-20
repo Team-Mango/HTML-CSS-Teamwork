@@ -126,6 +126,11 @@ header .nav li.active a{
     margin: 10px 0;
 }
 
+#contacts .ticket {
+    color: #ac2925;
+    font-weight: bold;
+}
+
 /* Courses */
 section#courses article.hidden-xs {
     position:relative
