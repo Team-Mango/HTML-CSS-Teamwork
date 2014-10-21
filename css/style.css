@@ -54,6 +54,40 @@ header .nav li.active a{
 }
 
 /* Content */
+/* Home */
+
+
+.box {
+    padding: 20px;
+    background: #f4f8fb;
+}
+
+.subtitle {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.icon {
+    position: relative;
+    top: -4px;
+    margin-right: 10px;
+}
+
+.hr {
+    color: #2f69a3;
+    background-color: #64abda;
+    height: 2px;
+}
+
+.trainerImg {
+    width: 100%;
+}
 
 /* Contacts */
 
@@ -283,34 +317,11 @@ footer #footer-img-3 {
     margin-left:-95px
 }
 
-.box {
-    padding: 20px;
-    background: #f4f8fb;
+footer div div div div{
+    width: 196px;
+    margin: 0 auto;
 }
-
-.subtitle {
-    font-size: 25px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-size: 24px;
-}
-
-.icon {
-    position: relative;
-    top: -4px;
-    margin-right: 10px;
-}
-
-.hr {
-    color: #2f69a3;
-    background-color: #64abda;
-    height: 2px;
-}
-
-.trainerImg {
-    width: 100%;
+footer div div div p{
+    float: left;
+    margin: 0 5px 10px 5px;
 }
