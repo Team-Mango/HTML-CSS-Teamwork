@@ -280,6 +280,9 @@ section#courses article#content .indent {
     .authenticationA {
         width: 100%;
     }
+	.authenticationA .form input[type="submit"] {
+		margin-top: 10px;
+	}
 }
 @media screen and (max-width: 640px) {
     .login, .pass {
@@ -292,7 +295,17 @@ section#courses article#content .indent {
     .authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
         width: 80%;
         float: right;
+		margin: 3px;
     }
+	label {
+		margin: 4px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.authenticationA .form input[type="submit"] {
+		width: 40%;
+		margin-top: 10px;
+	}
 }
 @media screen and (max-width: 480px) {
     .authenticationA .form input[type="password"], .authenticationA .form input[type="text"], .authenticationA .form input[type="email"] {
@@ -305,6 +318,9 @@ section#courses article#content .indent {
     .authenticationA .form input[type="submit"] {
         display:block;
     }
+	.authenticationA .form input[type="submit"] {
+		margin-top: 10px;
+	}
 }
 
 
