@@ -277,9 +277,11 @@ section#courses article#content .indent {
 }
 
 /* Register And Login */
+
 .authenticationA h3 {
     color: darkblue;
     text-align: center;
+	font-family: 'Open Sans', sans-serif; 
 }
 .reg {
     border-bottom-color: #63ACD9;
@@ -343,7 +345,7 @@ section#courses article#content .indent {
 }
 @media screen and (max-width: 795px) {
     .authenticationA {
-        width: 100%;
+        width: 90%;
     }
 	.authenticationA .form input[type="submit"] {
 		margin-top: 10px;
