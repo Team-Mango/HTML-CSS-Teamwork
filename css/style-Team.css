@@ -1,62 +1,82 @@
-@import url(bootstrap.min.css);
-@import url(style.css);
-
-/*Team page*/
-
-section.team {
-    width:100%;
-    padding:0;
+#team>article {
+    width: 95%;
+    margin: 30px auto;
     text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+    font-size: 18px;
+    text-indent: 50px;
+}
+#team hr {
+    color: #2f69a3;
+    background-color: #64abda;
+    height: 2px;
+    box-sizing: border-box;
+}
+#team hr.hidden-hr {
+    display: none;
+}
+#team img {
+    border: 2px #cfcfcf solid;
 }
 
-.about-us.container {
-    padding-bottom: 12px;
+/* About Team */
+#team #about-us {
     text-align: center;
 }
-.about-us.container p{
+#team #about-us>p{
     padding: 6px 6px 6px 6px;
     text-align: justify;
+    line-height: 30px;
 }
-.about-us img {
-    width: 80%;
- }
-
-
-.team.col-xs-4 {
-    margin: 10 10 10 10;
+#team #about-us>img {
+    width: 40%;
+    float: left;
+    margin: 20px 10px 1px;
 }
 
-.team.col-xs-4 img{
+/* Personal Info */
+#team>#team-info .col-xs-4 {
+    padding: 15px;
+}
+#team>#team-info .person-img{
+    height: 85%;
+    display: block;
+}
+#team>#team-info .person-data{
+    height: auto;
+}
+#team>#team-info .person-img>img{
     width: 100%;
 }
-
-.team.col-xs-4.team:hover{
-	-webkit-transform:scale(0.8);
-	-webkit-box-shadow:0px 0px 30px #ccc;
+#team>#team-info .col-xs-4:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0px 0px 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0px 0px 30px #ccc; /* Mozilla */
+    box-shadow:0px 0px 30px #ccc
 }
-.team.col-xs-4.active{
-	-webkit-transform:scale(0.8);
-	-webkit-box-shadow:0px 0px 30px #ccc;
+#team>#team-info .col-xs-4.active{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0px 0px 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0px 0px 30px #ccc; /* Mozilla */
+    box-shadow:0px 0px 30px #ccc
 }
-
-.team.person-data {
-    padding-left: 10%;
-    padding-top: 12px;
-    text-align: justify;
-}
-
-
-.team.col-xs-8 {
+#team>#team-info [id*=person-] {
     display: none;
-    border: 2px solid #000000;
-    border-radius: 5px;
     padding: 12px;
 }
 
-@media only screen and (max-width: 241px)
-{
-    .team.about-img {
-        float: left;
+@media screen and (max-width: 640px) {
+    #team #about-us>img {
         width: 100%;
+        margin: 0;
     }
 }
