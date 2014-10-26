@@ -1,3 +1,13 @@
+q {
+    quotes: "“" "”" "‘" "’";
+    font-style: italic;
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
 #team>article {
     width: 95%;
     margin: 30px auto;
@@ -5,7 +15,7 @@
     text-justify: inter-word;
     line-height: 30px;
     font-size: 18px;
-    text-indent: 50px;
+    text-indent: 3%;
 }
 #team hr {
     color: #2f69a3;
@@ -24,18 +34,19 @@
 #team #about-us {
     text-align: center;
 }
-#team #about-us>p{
+#team #about-us>div>p{
     padding: 6px 6px 6px 6px;
     text-align: justify;
     line-height: 30px;
 }
-#team #about-us>img {
+#team #about-us>div>img {
     width: 40%;
     float: left;
     margin: 20px 10px 1px;
 }
 
 /* Personal Info */
+
 #team>#team-info .col-xs-4 {
     padding: 15px;
 }
@@ -45,6 +56,10 @@
 }
 #team>#team-info .person-data{
     height: auto;
+    text-indent: 1px;
+}
+#team>#team-info strong{
+    display: inline-block;
 }
 #team>#team-info .person-img>img{
     width: 100%;
@@ -74,9 +89,29 @@
     padding: 12px;
 }
 
+/* Page 404.html */
+div#error-404 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+}
+div#error-404 img {
+    width: 70%;
+}
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+    div#error-404 img {
+        width: 80%;
+    }
+}
 @media screen and (max-width: 640px) {
     #team #about-us>img {
         width: 100%;
         margin: 0;
+    }
+    div#error-404 img {
+        width: 90%;
     }
 }
