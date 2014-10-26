@@ -1,5 +1,5 @@
 q {
-    quotes: "‚Äú" "‚Äù" "‚Äò" "‚Äô";
+    quotes: "ì" "î" "ë" "í";
     font-style: italic;
 }
 q:before {
@@ -95,9 +95,6 @@ div#error-404 {
     font-size: 34px;
     font-weight: bold;
     font-style: italic;
-}
-div#error-404 img {
-    width: 70%;
 }
 
 /* Responsive */
