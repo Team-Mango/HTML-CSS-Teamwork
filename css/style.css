@@ -343,7 +343,7 @@ section#courses article#content .indent {
 	outline: none;
 	border: none; 
 }
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 800px) {
     .authenticationA {
         width: 90%;
     }
@@ -370,7 +370,7 @@ section#courses article#content .indent {
 		margin-right: 0px;
 	}
 	.authenticationA .form input[type="submit"] {
-		width: 40%;
+		width: 50%;
 		margin-top: 10px;
 	}
 }
