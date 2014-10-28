@@ -439,3 +439,117 @@ footer div div div p{
     float: left;
     margin: 0 2px 10px 8px;
 }
+#htmlvalid>a>img {
+	border:0;
+	width:88px;
+	height:31px;
+}
+#cssvalid>a>img {
+	border:0;
+	width:88px;
+	height:31px;
+}
+#team>article {
+    width: 95%;
+    margin: 30px auto;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+    font-size: 18px;
+    text-indent: 3%;
+}
+#team hr {
+    color: #2f69a3;
+    background-color: #64abda;
+    height: 2px;
+    box-sizing: border-box;
+}
+#team hr.hidden-hr {
+    display: none;
+}
+#team img {
+    border: 2px #cfcfcf solid;
+}
+
+/* About Team */
+#team #about-us {
+    text-align: center;
+}
+#team #about-us>div>p{
+    padding: 6px 6px 6px 6px;
+    text-align: justify;
+    line-height: 30px;
+}
+#team #about-us>div>img {
+    width: 40%;
+    float: left;
+    margin: 20px 10px 1px;
+}
+
+/* Personal Info */
+
+#team>#team-info .col-xs-4 {
+    padding: 15px;
+}
+#team>#team-info .person-img{
+    height: 85%;
+    display: block;
+}
+#team>#team-info .person-data{
+    height: auto;
+    text-indent: 1px;
+}
+#team>#team-info strong{
+    display: inline;
+}
+#team>#team-info .person-img>img{
+    width: 100%;
+}
+#team>#team-info .col-xs-4:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0px 0px 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0px 0px 30px #ccc; /* Mozilla */
+    box-shadow:0px 0px 30px #ccc
+}
+#team>#team-info .col-xs-4.active{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0px 0px 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0px 0px 30px #ccc; /* Mozilla */
+    box-shadow:0px 0px 30px #ccc
+}
+#team>#team-info [id*=person-] {
+    display: none;
+    padding: 12px;
+}
+
+/* Page 404.html */
+div#error-404 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+    div#error-404 img {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #team #about-us>img {
+        width: 100%;
+        margin: 0;
+    }
+    div#error-404 img {
+        width: 90%;
+    }
+}
